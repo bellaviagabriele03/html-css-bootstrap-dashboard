@@ -20,7 +20,7 @@
         <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img class="img-fluid" src="./img/duck.png" alt="logo-header" width="30" height="24">
+                    <img class="img-fluid" src="./img/duck.png" alt="logo-header" width="40" height="40">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -62,141 +62,150 @@
         </nav>
     </header>
 
-    <main>
-        <div class="container d-flex justify-content-between mb-3">
-            <h1>Catalogo Libri</h1>
-            <button class="btn btn-primary">Aggiungi Libro</button>
-        </div>
-        <div class="container">
-            <table class="table table-striped">
-                <thead>
-                    <tr>
-                        <th class="col">Titolo</th>
-                        <th class="col">Stato</th>
-                        <th class="col">Azioni</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th class="tex">I pilastri della terra</th>
-                        <th class=""><span class="badge text-bg-success">Disponibile</span></th>
-                        <th class="d-flex">
-                            <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
-                            <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>I promessi sposi</th>
-                        <th><span class="badge text-bg-success">Disponibile</span></th>
-                        <th class="d-flex">
-                            <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
-                            <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>Il signore degli anelli</th>
-                        <th><span class="badge text-bg-warning text-white">In prestito</span></th>
-                        <th class="d-flex">
-                            <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
-                            <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>Harry potter e la pietra filosofale</th>
-                        <th><span class="badge text-bg-success">Disponibile</span></th>
-                        <th class="d-flex">
-                            <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
-                            <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>Il codice Da Vinci</th>
-                        <th><span class="badge text-bg-danger">Non disponibile</span></th>
-                        <th class="d-flex">
-                            <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
-                            <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>Shining</th>
-                        <th><span class="badge text-bg-success">disponibile</span></th>
-                        <th class="d-flex">
-                            <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
-                            <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>La divina commedia</th>
-                        <th><span class="badge text-bg-warning text-white">In prestito</span></th>
-                        <th class="d-flex">
-                            <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
-                            <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>Il trono di spade</th>
-                        <th><span class="badge text-bg-success">disponibile</span></th>
-                        <th class="d-flex">
-                            <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
-                            <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>Il mondo di Sofia</th>
-                        <th><span class="badge text-bg-danger">Non disponibile</span></th>
-                        <th class="d-flex">
-                            <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
-                            <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>Le cronache di Narnia: il leone, la strega e l'armadio</th>
-                        <th><span class="badge text-bg-warning">In prestito</span></th>
-                        <th class="d-flex">
-                            <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
-                            <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>Il piccolo principe</th>
-                        <th><span class="badge text-bg-success">disponibile</span></th>
-                        <th class="d-flex">
-                            <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
-                            <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>La storia infinita</th>
-                        <th><span class="badge text-bg-success">disponibile</span></th>
-                        <th class="d-flex">
-                            <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
-                            <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
-                        </th>
-                    </tr>
+    <main class="d-lg-flex">
 
-                </tbody>
-            </table>
-        </div>
-        <div class="container">
-            <div class="card text-bg-light">
-                <div class="card-header">Todo</div>
-                <div class="card-body">
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-                            <label class="form-check-label" for="firstCheckbox">Chiamare segreteria</label>
-                        </li>
-                        <li class="list-group-item">
-                            <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
-                            <label class="form-check-label" for="secondCheckbox">mandare avvisi prestiti scaduti</label>
-                        </li>
-                        <li class="list-group-item">
-                            <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
-                            <label class="form-check-label" for="thirdCheckbox">Ordinare nuovi libri</label>
-                        </li>
-                    </ul>
+        <section class="container">
+            <div class="d-flex justify-content-between mb-3">
+                <h1>Catalogo Libri</h1>
+                <button class="btn btn-primary">Aggiungi Libro</button>
+            </div>
+            <div class="">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th class="col">Titolo</th>
+                            <th class="col">Stato</th>
+                            <th class="col">Azioni</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="tex">I pilastri della terra</th>
+                            <th class=""><span class="badge text-bg-success">Disponibile</span></th>
+                            <th class="d-flex">
+                                <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
+                                <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>I promessi sposi</th>
+                            <th><span class="badge text-bg-success">Disponibile</span></th>
+                            <th class="d-flex">
+                                <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
+                                <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>Il signore degli anelli</th>
+                            <th><span class="badge text-bg-warning text-white">In prestito</span></th>
+                            <th class="d-flex">
+                                <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
+                                <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>Harry potter e la pietra filosofale</th>
+                            <th><span class="badge text-bg-success">Disponibile</span></th>
+                            <th class="d-flex">
+                                <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
+                                <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>Il codice Da Vinci</th>
+                            <th><span class="badge text-bg-danger">Non disponibile</span></th>
+                            <th class="d-flex">
+                                <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
+                                <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>Shining</th>
+                            <th><span class="badge text-bg-success">disponibile</span></th>
+                            <th class="d-flex">
+                                <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
+                                <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>La divina commedia</th>
+                            <th><span class="badge text-bg-warning text-white">In prestito</span></th>
+                            <th class="d-flex">
+                                <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
+                                <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>Il trono di spade</th>
+                            <th><span class="badge text-bg-success">disponibile</span></th>
+                            <th class="d-flex">
+                                <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
+                                <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>Il mondo di Sofia</th>
+                            <th><span class="badge text-bg-danger">Non disponibile</span></th>
+                            <th class="d-flex">
+                                <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
+                                <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>Le cronache di Narnia: il leone, la strega e l'armadio</th>
+                            <th><span class="badge text-bg-warning">In prestito</span></th>
+                            <th class="d-flex">
+                                <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
+                                <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>Il piccolo principe</th>
+                            <th><span class="badge text-bg-success">disponibile</span></th>
+                            <th class="d-flex">
+                                <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
+                                <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>La storia infinita</th>
+                            <th><span class="badge text-bg-success">disponibile</span></th>
+                            <th class="d-flex">
+                                <button class="btn btn-outline-secondary"><i class="bi bi-pencil"></i></button>
+                                <button class="btn btn-outline-secondary"><i class="bi bi-trash"></i></button>
+                            </th>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+
+        <section class="container">
+            <div class="">
+                <div class="card text-bg-light my-4 my-lg-0">
+                    <div class="card-header">Todo</div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                <label class="form-check-label" for="firstCheckbox">Chiamare segreteria</label>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                <label class="form-check-label" for="secondCheckbox">mandare avvisi prestiti
+                                    scaduti</label>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                <label class="form-check-label" for="thirdCheckbox">Ordinare nuovi libri</label>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="card">
+
+                <div class="card text-bg-light my-4">
                     <div class="card-header">F.A.Q.</div>
                     <div class="card-body">
                         <div class="accordion" id="accordionExample">
@@ -262,7 +271,8 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
     </main>
 
 
